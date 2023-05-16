@@ -1,0 +1,133 @@
+.navBar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flexContainer{
+display: flex;
+justify-content: center;
+} 
+.navBarItem{
+    margin: 10px 15px 10px 15px; /*t r b l*/
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    -ms-flex: auto;
+}
+
+
+
+a:link {
+color: rgb(65, 65, 65);
+text-decoration: none;
+}
+
+a:visited {
+    color: rgb(65, 65, 65);
+}
+
+a:hover {
+    color: rgb(65, 65, 65);
+}
+
+a:active {
+    color: rgb(65, 65, 65);
+}
+
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.roundedInput{
+    /* display: flex; */
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5; 
+    box-shadow: none;
+    border-radius: 24px;
+    margin-top: 10px;
+    width: 638px;
+    width: 584px;
+    max-width: 584px;
+}
+
+.buttonGoogle{
+    
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.h1Advanced{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.h2Advanced{
+    font-size: 16px;
+    color: #333333;
+}
+
+.divAdvanced{
+    margin:50px
+}
+
+.rowInput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left{
+    width: 200px;
+
+}
+
+.right{
+    width: 385px;
+
+} 
+
+.pAdvanced{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.buttonAdvanced{
+
+    box-shadow: none;
+    background-color: #4d90fe;
+
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 5px; /*different to tuto*/
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 30px;
+}
