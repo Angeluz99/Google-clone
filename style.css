@@ -54,6 +54,7 @@ a:active {
     width: 638px;
     width: 584px;
     max-width: 584px;
+    outline: none;
 }
 
 .buttonGoogle{
