@@ -14,7 +14,7 @@ justify-content: center;
     margin-right: 20px;
     font-family: Arial, sans-serif;
     font-size: small;
-    -ms-flex: auto;
+    /* -ms-flex: auto; */
 }
 
 
